@@ -1,0 +1,59 @@
+{
+  "name": "bluetooth-printer-app",
+  "version": "1.0.0",
+  "description": "蓝牙打印机连接与控制应用",
+  "main": "main.js",
+  "scripts": {
+    "build:app": "uni build --platform app",
+    "build:custom": "uni build",
+    "build:h5": "uni build --platform h5",
+    "build:mp-alipay": "uni build --platform mp-alipay",
+    "build:mp-baidu": "uni build --platform mp-baidu",
+    "build:mp-kuaishou": "uni build --platform mp-kuaishou",
+    "build:mp-lark": "uni build --platform mp-lark",
+    "build:mp-qq": "uni build --platform mp-qq",
+    "build:mp-toutiao": "uni build --platform mp-toutiao",
+    "build:mp-weixin": "uni build --platform mp-weixin",
+    "build:quickapp-webview": "uni build --platform quickapp-webview",
+    "dev:app": "uni --platform app",
+    "dev:custom": "uni",
+    "dev:h5": "uni --platform h5",
+    "dev:mp-alipay": "uni --platform mp-alipay",
+    "dev:mp-baidu": "uni --platform mp-baidu",
+    "dev:mp-kuaishou": "uni --platform mp-kuaishou",
+    "dev:mp-lark": "uni --platform mp-lark",
+    "dev:mp-qq": "uni --platform mp-qq",
+    "dev:mp-toutiao": "uni --platform mp-toutiao",
+    "dev:mp-weixin": "uni --platform mp-weixin",
+    "dev:quickapp-webview": "uni --platform quickapp-webview"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "3.0.0-4020920240930001",
+    "@dcloudio/uni-app-plus": "3.0.0-4020920240930001",
+    "@dcloudio/uni-components": "3.0.0-4020920240930001",
+    "@dcloudio/uni-h5": "3.0.0-4020920240930001",
+    "@dcloudio/uni-mp-alipay": "3.0.0-4020920240930001",
+    "@dcloudio/uni-mp-baidu": "3.0.0-4020920240930001",
+    "@dcloudio/uni-mp-kuaishou": "3.0.0-4020920240930001",
+    "@dcloudio/uni-mp-lark": "3.0.0-4020920240930001",
+    "@dcloudio/uni-mp-qq": "3.0.0-4020920240930001",
+    "@dcloudio/uni-mp-toutiao": "3.0.0-4020920240930001",
+    "@dcloudio/uni-mp-weixin": "3.0.0-4020920240930001",
+    "@dcloudio/uni-quickapp-webview": "3.0.0-4020920240930001",
+    "vue": "^3.5.11"
+  },
+  "devDependencies": {
+    "@dcloudio/types": "^3.4.8",
+    "@dcloudio/uni-automator": "3.0.0-4020920240930001",
+    "@dcloudio/uni-cli-shared": "3.0.0-4020920240930001",
+    "@dcloudio/vite-plugin-uni": "3.0.0-4020920240930001",
+    "vite": "5.4.8"
+  },
+  "browserslist": [
+    "Android >= 4.4",
+    "ios >= 9"
+  ],
+  "uni-app": {
+    "scripts": {}
+  }
+}
